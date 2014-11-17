@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BLCImagesTableViewController.h
 //  Blocstagram
 //
 //  Created by ALEJANDRO REITER B on 11/17/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface BLCImagesTableViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *images;
 
 @end
-
