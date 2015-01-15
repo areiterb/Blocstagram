@@ -35,7 +35,7 @@
     [self.tableView registerClass:[BLCMediaTableViewCell class] forCellReuseIdentifier:@"mediaCell"];
     
      self.navigationItem.rightBarButtonItem = self.editButtonItem;
-
+     
 }
 
 - (void)didReceiveMemoryWarning {
